@@ -4,15 +4,42 @@
   <meta charset="utf-8">
   <title>Mini Finance</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; }
-    main { min-height: 80vh; padding: 20px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6f0ff; /* soft light blue background */
+      color: #222; /* dark gray for readability */
+    }
+    main {
+      min-height: 80vh;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
     footer {
       text-align: center;
-      font-size: 14px;
-      padding: 10px;
-      border-top: 1px solid #ccc;
-      background: #fafafa; /* New background color (AliceBlue) */
-      color:      #000;   /* High contrast text */
+      font-size: 16px;
+      padding: 16px;
+      border-top: 2px solid #333;
+      background: #ffffff; /* white footer for strong contrast */
+      color: #000000;      /* black text */
+      line-height: 1.5;    /* spacing for readability */
+    }
+    /* Mobile responsive tweaks */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 14px;
+      }
+      footer {
+        font-size: 14px;
+        padding: 12px;
+      }
     }
   </style>
 </head>
@@ -22,7 +49,7 @@
     <p>Welcome to Mini Finance demo site.</p>
   </main>
   <footer>
-    Mini Finance v1.0 — Deployed on 10 Sep 2025 — By Jennifer Ifesinachi Udeh
+    Mini Finance v1.0 — Deployed on 11 Sep 2025 — By Jennifer Ifesinachi Udeh
   </footer>
 </body>
 </html>
